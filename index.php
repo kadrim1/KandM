@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-/**
-* Created by PhpStorm.
-* User: Matyu
-* Date: 2.09.2015
-* Time: 18:47
-*/
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,14 +10,18 @@
 
         }
         body {
-            background-color: saddlebrown;
+            background-color: #311804;
         }
         #text {
             color: yellow;
         }
         li {
-            color:
+            color: lawngreen;
         }
+        table {
+            color: lightpink;
+        }
+
     </style>
 
 </head>
