@@ -20,6 +20,7 @@
         }
         li {
             color: lawngreen;
+            font-size: 20px;
         }
         table {
             color: lightpink;
@@ -58,20 +59,20 @@
 
 
     <div id="text">
-        <li>
-            <ul>Nimi: Kadri</ul>
-            <ul>Elukoht: Tartu</ul>
-            <ul>Lemmikloom: Must kırvepiiretega krants Jimmi</ul>
-            <ul>Elu- ja koolikaaslane: Martin</ul>
-            <ul>Kodulinn: P‰rnu</ul>
-            <ul>Lemmikv‰rv: pruun</ul>
-            <ul>Lemmikmaius: Tupla</ul>
-            <ul>Meeldib: "kıvasti ja valesti" laulda...</ul>
-            <ul>Ei meeldi: vihm ja remont</ul>
-        </li>
+        <ul>
+            <li>Nimi: Kadri</li>
+            <li>Elukoht: Tartu</li>
+            <li>Lemmikloom: Must k√µrvepiiretega krants Jimmi</li>
+            <li>Elu- ja koolikaaslane: Martin</li>
+            <li>Kodulinn: P√§rnu</li>
+            <li>Lemmikv√§rv: pruun</li>
+            <li>Lemmikmaius: Tupla</li>
+            <li>Meeldib: "k√µvasti ja valesti" laulda...</li>
+            <li>Ei meeldi: vihm ja remont</li>
+        </ul>
     </div>
 
-    <audio >
+    <audio autoplay>
         <source src="06%20Gin%20Wigmore%20-%20If%20Only.mp3">
     </audio>
 
