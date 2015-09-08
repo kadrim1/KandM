@@ -4,13 +4,14 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Kadri's homepage</title>
     <style>
 
         body {
             background-color: #311804;
         }
+
         #text {
             color: yellow;
             position: absolute;
@@ -18,10 +19,12 @@
             margin-top: 350px;
             margin-left: 400px;
         }
+
         li {
             color: lawngreen;
             font-size: 20px;
         }
+
         table {
             color: lightpink;
         }
@@ -32,7 +35,7 @@
             margin-bottom: 20px;
         }
 
-        #image	{
+        #image {
             /*float: right;*/
             margin-left: 440px;
             width: 380px;
@@ -47,34 +50,43 @@
             width: 400px;
         }
 
+        video {
+            margin-top: 550px;
+        }
+
     </style>
 
 </head>
 <body>
-    <div id="pics">
+<div id="pics">
     <img id="image2" src="kadri2.jpg">
     <img id="image" src="kadri.jpg">
 
-    </div>
+</div>
 
 
-    <div id="text">
-        <ul>
-            <li>Nimi: Kadri</li>
-            <li>Elukoht: Tartu</li>
-            <li>Lemmikloom: Must kõrvepiiretega krants Jimmi</li>
-            <li>Elu- ja koolikaaslane: Martin</li>
-            <li>Kodulinn: Pärnu</li>
-            <li>Lemmikvärv: pruun</li>
-            <li>Lemmikmaius: Tupla</li>
-            <li>Meeldib: "kõvasti ja valesti" laulda...</li>
-            <li>Ei meeldi: vihm ja remont</li>
-        </ul>
-    </div>
+<div id="text">
+    <ul>
+        <li>Nimi: Kadri</li>
+        <li>Elukoht: Tartu</li>
+        <li>Lemmikloom: Must kõrvepiiretega krants Jimmi</li>
+        <li>Elu- ja koolikaaslane: Martin</li>
+        <li>Kodulinn: Pärnu</li>
+        <li>Lemmikvärv: pruun</li>
+        <li>Lemmikmaius: Tupla</li>
+        <li>Meeldib: "kõvasti ja valesti" laulda...</li>
+        <li>Ei meeldi: vihm ja remont</li>
+    </ul>
+</div>
 
-    <audio autoplay>
-        <source src="06%20Gin%20Wigmore%20-%20If%20Only.mp3">
-    </audio>
+<video class="video-stream html5-main-video"
+       style="width: 420px; height: 319px; left: 0px; top: 13.006329113924px; transform: none;"
+       src="blob:https%3A//www.youtube.com/3759f551-24ce-4ab4-937b-79bc0e65b107"></video>
+
+<audio autoplay>
+    <source src="06%20Gin%20Wigmore%20-%20If%20Only.mp3">
+</audio>
+
 
 </body>
 </html>
